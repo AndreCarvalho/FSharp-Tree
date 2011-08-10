@@ -1,0 +1,30 @@
+#Ignore all dot files except for .gitignore
+.*
+!.gitignore
+
+#Ignore merged files backups
+*.orig
+
+#Ignore files used for translation
+*.rwtxlf
+
+#Ignore Visual Studio and Resharper files
+*.suo
+*.vsmdi
+*.user
+*.sln.cache
+*.sln.docstates
+*[Rr]e[Ss]harper*
+*.tmp
+
+#Ignore DevExpress license files
+licenses.licx
+
+#Ignore all files within bin, obj and build folders
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Tt]est[Rr]esults/
+
+#Ignore thumbnails created by windows
+Thumbs.db
